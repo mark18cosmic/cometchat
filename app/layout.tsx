@@ -35,7 +35,8 @@ export default function RootLayout({
             <SidebarTrigger />
             {children}
           </main>
-        </SidebarProvider>      </body>
+        </SidebarProvider>
+      </body>
     </html>
   );
 }
