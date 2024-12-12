@@ -36,7 +36,7 @@ const SidebarTabs = () => {
             <TabsList>
                 {items.map((item) => (
                     <TabsTrigger key={item.value} value={item.value}>
-                        <div className={`flex-col ${item.value === 'chats' ? 'text-[#6852D6]' : 'text-[#A1A1A1]'} items-center text-md justify-center text-center p-4`}>
+                        <div className={`flex-col ${item.value === 'chats' ? 'text-[#6852D6]' : 'text-[#A1A1A1]'} items-center hover:text-[#6852D6] text-md justify-center text-center p-4`}>
                             <div className="text-center text-xl">
                                 {item.icon}
                             </div>
